@@ -6,7 +6,7 @@ const server=http.createServer();
 
 server.on("request", (req, res) => {
     res.statusCode=200;
-    res.write("Hello World");
+    res.write("te amo bbitapou <3");
     res.end();
 })
 
